@@ -4,7 +4,7 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Your Name.
+        <time>{YEAR}</time> © Briam Agudelo.
         <a href="/feed.xml">RSS</a>
       </small>
       <style jsx>{`
@@ -17,4 +17,6 @@ export default {
       `}</style>
     </footer>
   ),
+  darkMode: true,
+  readMore: 'View More →',
 }
